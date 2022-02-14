@@ -1,0 +1,4309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1285</width>
+    <height>805</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1281</width>
+      <height>831</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>Ідентифікація ризиків</string>
+     </attribute>
+     <widget class="QTabWidget" name="tabWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1281</width>
+        <height>791</height>
+       </rect>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_3">
+       <attribute name="title">
+        <string>Джерела появи ризиків</string>
+       </attribute>
+       <widget class="QLabel" name="label">
+        <property name="geometry">
+         <rect>
+          <x>390</x>
+          <y>10</y>
+          <width>421</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Оберіть,  будь ласка,  можливі джерела появи ризиків</string>
+        </property>
+       </widget>
+       <widget class="QGroupBox" name="groupBox">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>70</y>
+          <width>571</width>
+          <height>161</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Технічні ризики</string>
+        </property>
+        <property name="flat">
+         <bool>false</bool>
+        </property>
+        <property name="checkable">
+         <bool>false</bool>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+        <widget class="QCheckBox" name="checkBox">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>531</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Наявні нереалістичні чи неоціненні функціональні характеристики ПЗ</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <property name="autoExclusive">
+          <bool>false</bool>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QCheckBox" name="checkBox_2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>40</y>
+           <width>461</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Наявні нереалістичні чи неоціненні характеристики якості ПЗ</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QCheckBox" name="checkBox_3">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>60</y>
+           <width>501</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Наявні нереалістичні рекомендації щодо майбутньої застосованості ПЗ</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QCheckBox" name="checkBox_4">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>80</y>
+           <width>551</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Наявні нереалістичні чи неоціненні характеристики часової продуктивності ПЗ</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QCheckBox" name="checkBox_5">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>100</y>
+           <width>561</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Наявні нереалістичні рекомендації щодо майбутньої супроводжуваності ПЗ</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QCheckBox" name="checkBox_6">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>120</y>
+           <width>571</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Наявні нереалістичні рекомендації щодо повторного використання компонент ПЗ</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup</string>
+         </attribute>
+        </widget>
+        <widget class="QCheckBox" name="checkBox_38">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>140</y>
+           <width>511</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Наявні нереалістичні чи неоціненні характеристики надійності ПЗ</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup</string>
+         </attribute>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_2">
+        <property name="geometry">
+         <rect>
+          <x>580</x>
+          <y>70</y>
+          <width>621</width>
+          <height>121</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Ризики реалізації процесів та процедур управління:</string>
+        </property>
+        <widget class="QCheckBox" name="checkBox_10">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>431</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Наявна хибна стратегія реалізації програмного проєкту</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_3</string>
+         </attribute>
+        </widget>
+        <widget class="QCheckBox" name="checkBox_11">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>40</y>
+           <width>461</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Наявні неефективні методики планування проєкту розроблення ПЗ</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_3</string>
+         </attribute>
+        </widget>
+        <widget class="QCheckBox" name="checkBox_12">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>60</y>
+           <width>511</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Наявні прогалини в документуванні етапів реалізації програмного проєкту</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_3</string>
+         </attribute>
+        </widget>
+        <widget class="QCheckBox" name="checkBox_13">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>80</y>
+           <width>371</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Наявне неякісне оцінювання програмного проєкту</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_3</string>
+         </attribute>
+        </widget>
+        <widget class="QCheckBox" name="checkBox_14">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>100</y>
+           <width>551</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Наявні промахи в прогнозуванні результатів реалізації програмного проєкту</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_3</string>
+         </attribute>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_3">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>240</y>
+          <width>571</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Вартісні ризики</string>
+        </property>
+        <widget class="QCheckBox" name="checkBox_7">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>491</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Наявні обмеження сумарного бюджету на програмний проєкт</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_2</string>
+         </attribute>
+        </widget>
+        <widget class="QCheckBox" name="checkBox_8">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>40</y>
+           <width>521</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Вказана недоступна вартість реалізації програмного проєкту</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_2</string>
+         </attribute>
+        </widget>
+        <widget class="QCheckBox" name="checkBox_9">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>60</y>
+           <width>571</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Присутній низький ступінь реалізму при оцінюванні витрат на програмний проєкт</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_2</string>
+         </attribute>
+        </widget>
+       </widget>
+       <widget class="Line" name="line">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>50</y>
+          <width>1211</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_2">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>560</y>
+          <width>171</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+         </font>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
+        <property name="text">
+         <string>Ймовірність появи
+  джерел ризиків:</string>
+        </property>
+        <property name="textFormat">
+         <enum>Qt::PlainText</enum>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_3">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>550</y>
+          <width>201</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Технічні ризики:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_4">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>550</y>
+          <width>211</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Вартісні ризики:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_5">
+        <property name="geometry">
+         <rect>
+          <x>560</x>
+          <y>550</y>
+          <width>211</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Планові ризики:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_6">
+        <property name="geometry">
+         <rect>
+          <x>770</x>
+          <y>500</y>
+          <width>201</width>
+          <height>101</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Ризики реалізації
+ процесів та процедур
+ управління:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit">
+        <property name="geometry">
+         <rect>
+          <x>190</x>
+          <y>580</y>
+          <width>111</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>0%</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_2">
+        <property name="geometry">
+         <rect>
+          <x>400</x>
+          <y>580</y>
+          <width>111</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>0%</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_3">
+        <property name="geometry">
+         <rect>
+          <x>610</x>
+          <y>580</y>
+          <width>111</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>0%</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_7">
+        <property name="geometry">
+         <rect>
+          <x>820</x>
+          <y>580</y>
+          <width>111</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>0%</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_8">
+        <property name="geometry">
+         <rect>
+          <x>1060</x>
+          <y>580</y>
+          <width>101</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>0%</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_13">
+        <property name="geometry">
+         <rect>
+          <x>1010</x>
+          <y>560</y>
+          <width>201</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Загалом:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_4">
+        <property name="geometry">
+         <rect>
+          <x>580</x>
+          <y>240</y>
+          <width>631</width>
+          <height>111</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Планові ризики</string>
+        </property>
+        <widget class="QCheckBox" name="checkBox_15">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>621</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Наявні нереалістичні властивості та можливості гнучкості внесення змін до планів життєвого
+циклу розроблення ПЗ</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_4</string>
+         </attribute>
+        </widget>
+        <widget class="QCheckBox" name="checkBox_16">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>50</y>
+           <width>601</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Наявні можливості порушення встановлених термінів реалізації етапів життєвого циклу
+розроблення ПЗ</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_4</string>
+         </attribute>
+        </widget>
+        <widget class="QCheckBox" name="checkBox_17">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>80</y>
+           <width>611</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Наявна низька ступінь реалізму при встановленні планів і етапів життєвого циклу </string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_4</string>
+         </attribute>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_4">
+       <attribute name="title">
+        <string>Потенційні ризикові події</string>
+       </attribute>
+       <widget class="QLabel" name="label_14">
+        <property name="geometry">
+         <rect>
+          <x>460</x>
+          <y>10</y>
+          <width>351</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Оберіть,  будь ласка,  потенційні ризикові події</string>
+        </property>
+       </widget>
+       <widget class="Line" name="line_8">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>40</y>
+          <width>1261</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_12">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>60</y>
+          <width>621</width>
+          <height>541</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Ризики управління</string>
+        </property>
+        <widget class="QCheckBox" name="da">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>501</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Низький моральний стан персоналу команди виконавців ПЗ</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_8</string>
+         </attribute>
+        </widget>
+        <widget class="QCheckBox" name="db">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>40</y>
+           <width>371</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Низька взаємодія між членами команди виконавців ПЗ</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_8</string>
+         </attribute>
+        </widget>
+        <widget class="QCheckBox" name="dc">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>60</y>
+           <width>401</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Пасивність керівника (менеджера) програмного проєкту</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_8</string>
+         </attribute>
+        </widget>
+        <widget class="QCheckBox" name="dd">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>80</y>
+           <width>561</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Недостатня компетентність керівника (менеджера) програмного проєкту</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_8</string>
+         </attribute>
+        </widget>
+        <widget class="QCheckBox" name="de">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>100</y>
+           <width>561</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Незадоволеність замовника результатами етапів реалізації програмного проєкту</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_8</string>
+         </attribute>
+        </widget>
+        <widget class="QCheckBox" name="df">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>120</y>
+           <width>611</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Недостатня кількість фахівців у команді виконавців ПЗ з необхідним професійним рівнем</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_8</string>
+         </attribute>
+        </widget>
+        <widget class="QCheckBox" name="dg">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>140</y>
+           <width>561</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Хвороба провідного виконавця в найкритичніший момент розроблення ПЗ</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_8</string>
+         </attribute>
+        </widget>
+        <widget class="QCheckBox" name="dh">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>160</y>
+           <width>561</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Одночасна хвороба декількох виконавців підчас розроблення ПЗ</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_8</string>
+         </attribute>
+        </widget>
+        <widget class="QCheckBox" name="di">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>180</y>
+           <width>561</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Неможливість організації необхідного навчання персоналу команди виконавців ПЗ</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_8</string>
+         </attribute>
+        </widget>
+        <widget class="QCheckBox" name="dj">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>200</y>
+           <width>561</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Зміна пріоритетів у процесі управління програмним проєктом</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_8</string>
+         </attribute>
+        </widget>
+        <widget class="QCheckBox" name="dk">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>220</y>
+           <width>561</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Недо(пере)оцінювання необхідної кількості розробників
+(підрядників і субпідрядників) на етапах життєвого циклу розроблення ПЗ</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_8</string>
+         </attribute>
+        </widget>
+        <widget class="QCheckBox" name="dm">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>270</y>
+           <width>561</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Нереалістичне прогнозування результатів на етапах реалізації програмного проєкту</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_8</string>
+         </attribute>
+        </widget>
+        <widget class="QCheckBox" name="dn">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>290</y>
+           <width>561</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Недостатній професійний рівень представників від компанії-замовника ПЗ</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_8</string>
+         </attribute>
+        </widget>
+        <widget class="QCheckBox" name="dl">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>250</y>
+           <width>561</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Недостатнє (надмірне) документування результатів на етапах реалізації проєкту</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_8</string>
+         </attribute>
+        </widget>
+        <widget class="QGroupBox" name="groupBox_11">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>310</y>
+           <width>621</width>
+           <height>201</height>
+          </rect>
+         </property>
+         <property name="title">
+          <string>Планові ризики</string>
+         </property>
+         <widget class="QCheckBox" name="ca">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>20</y>
+            <width>501</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Зміни графіка виконання робіт з боку замовника чи розробника ПЗ</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">buttonGroup_7</string>
+          </attribute>
+         </widget>
+         <widget class="QCheckBox" name="cb">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>40</y>
+            <width>551</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Порушення графіка виконання робіт з боку компанії-розробника ПЗ</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">buttonGroup_7</string>
+          </attribute>
+         </widget>
+         <widget class="QCheckBox" name="cc">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>60</y>
+            <width>611</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Потреба зміни користувацьких вимог до ПЗ з боку компанії-замовника ПЗ</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">buttonGroup_7</string>
+          </attribute>
+         </widget>
+         <widget class="QCheckBox" name="ce">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>100</y>
+            <width>611</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Потреба виконання великої кількості повторних робіт, необхідних для зміни вимог до ПЗ</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">buttonGroup_7</string>
+          </attribute>
+         </widget>
+         <widget class="QCheckBox" name="cf">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>120</y>
+            <width>611</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Недо(пере)оцінювання тривалості етапів реалізації програмного проєкту з боку замовника </string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">buttonGroup_7</string>
+          </attribute>
+         </widget>
+         <widget class="QCheckBox" name="cd">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>80</y>
+            <width>561</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Потреба зміни функціональних вимог до ПЗ з боку компанії-розробника ПЗ</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">buttonGroup_7</string>
+          </attribute>
+         </widget>
+         <widget class="QCheckBox" name="cg">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>140</y>
+            <width>601</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Остаточний розмір ПЗ  перевищує (менший від) заплановані(их) його характеристики</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">buttonGroup_7</string>
+          </attribute>
+         </widget>
+         <widget class="QCheckBox" name="ch">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>160</y>
+            <width>561</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Поява на ринку аналогічного ПЗ до виходу замовленого</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">buttonGroup_7</string>
+          </attribute>
+         </widget>
+         <widget class="QCheckBox" name="ci">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>180</y>
+            <width>561</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Поява на ринку більш конкурентоздатного ПЗ</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">buttonGroup_7</string>
+          </attribute>
+         </widget>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_9">
+        <property name="geometry">
+         <rect>
+          <x>630</x>
+          <y>60</y>
+          <width>631</width>
+          <height>281</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Технічні ризики</string>
+        </property>
+        <property name="flat">
+         <bool>false</bool>
+        </property>
+        <property name="checkable">
+         <bool>false</bool>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+        <widget class="QCheckBox" name="aa">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>601</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Затримки у постачанні обладнання, необхідного для підтримки процесу розроблення ПЗ</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <property name="autoExclusive">
+          <bool>false</bool>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_5</string>
+         </attribute>
+        </widget>
+        <widget class="QCheckBox" name="ab">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>40</y>
+           <width>611</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Затримки у постачанні засобів, необхідних для підтримки процесу розроблення ПЗ</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <property name="autoExclusive">
+          <bool>false</bool>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_5</string>
+         </attribute>
+        </widget>
+        <widget class="QCheckBox" name="ac">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>60</y>
+           <width>611</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Небажання команди виконавців ПЗ використовувати інструментальні засоби для підтримки
+ процесу розроблення ПЗ</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <property name="autoExclusive">
+          <bool>false</bool>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_5</string>
+         </attribute>
+        </widget>
+        <widget class="QCheckBox" name="ae">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>110</y>
+           <width>551</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Відмова команди виконавців від CASE-засобів розроблення ПЗ</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <property name="autoExclusive">
+          <bool>false</bool>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_5</string>
+         </attribute>
+        </widget>
+        <widget class="QCheckBox" name="ad">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>90</y>
+           <width>581</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Формування запитів на більш потужні інструментальні засоби розроблення ПЗ</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <property name="autoExclusive">
+          <bool>false</bool>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_5</string>
+         </attribute>
+        </widget>
+        <widget class="QCheckBox" name="ah">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>180</y>
+           <width>581</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Недостатня продуктивність баз(и) даних для підтримки процесу розроблення ПЗ</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <property name="autoExclusive">
+          <bool>false</bool>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_5</string>
+         </attribute>
+        </widget>
+        <widget class="QCheckBox" name="ai">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>200</y>
+           <width>611</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Програмні компоненти,  які використовують повторно в ПЗ,  мають дефекти та обмежені
+функціональні можливості</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <property name="autoExclusive">
+          <bool>false</bool>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_5</string>
+         </attribute>
+        </widget>
+        <widget class="QCheckBox" name="af">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>130</y>
+           <width>581</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Неефективність програмного коду, згенерованого CASE-засобами розроблення ПЗ</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <property name="autoExclusive">
+          <bool>false</bool>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_5</string>
+         </attribute>
+        </widget>
+        <widget class="QCheckBox" name="ag">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>150</y>
+           <width>621</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Неможливість інтеграції CASE-засобів з іншими інструментальними засобами для підтримки
+процесу розроблення ПЗ</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <property name="autoExclusive">
+          <bool>false</bool>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_5</string>
+         </attribute>
+        </widget>
+        <widget class="QCheckBox" name="aj">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>230</y>
+           <width>621</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Швидкість виявлення дефектів у програмному коді є нижчою від раніше запланованих
+термінів</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <property name="autoExclusive">
+          <bool>false</bool>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_5</string>
+         </attribute>
+        </widget>
+        <widget class="QCheckBox" name="ak">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>260</y>
+           <width>591</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Поява дефектних системних компонент, які використовують для розроблення ПЗ</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <property name="autoExclusive">
+          <bool>false</bool>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_5</string>
+         </attribute>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_10">
+        <property name="geometry">
+         <rect>
+          <x>630</x>
+          <y>370</y>
+          <width>641</width>
+          <height>161</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Вартісні ризики</string>
+        </property>
+        <widget class="QCheckBox" name="ba">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>631</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Недо(пере)оцінювання витрат на реалізацію програмного про'кту (низька вартість)</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_6</string>
+         </attribute>
+        </widget>
+        <widget class="QCheckBox" name="bb">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>40</y>
+           <width>341</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Фінансові ускладнення у компанії-замовника ПЗ</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_6</string>
+         </attribute>
+        </widget>
+        <widget class="QCheckBox" name="bc">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>60</y>
+           <width>351</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Фінансові ускладнення у компанії-розробника ПЗ</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_6</string>
+         </attribute>
+        </widget>
+        <widget class="QCheckBox" name="bd">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>80</y>
+           <width>631</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Змен(збіль)шення бюджету програмного проєкта під час його реалізації</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_6</string>
+         </attribute>
+        </widget>
+        <widget class="QCheckBox" name="be">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>100</y>
+           <width>561</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Висока вартість виконання повторних робіт, необхідних для зміни вимог до ПЗ</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_6</string>
+         </attribute>
+        </widget>
+        <widget class="QCheckBox" name="bf">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>120</y>
+           <width>561</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Реорганізація структурних підрозділів у компанії-замовника ПЗ</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_6</string>
+         </attribute>
+        </widget>
+        <widget class="QCheckBox" name="bg">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>140</y>
+           <width>561</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Реорганізація команди виконавців у компанії-розробника ПЗ</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_6</string>
+         </attribute>
+        </widget>
+       </widget>
+       <widget class="QLabel" name="label_15">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>630</y>
+          <width>191</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+         </font>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
+        <property name="text">
+         <string>        Ймовірність появи
+     потенційних ризикових
+                  подій</string>
+        </property>
+        <property name="textFormat">
+         <enum>Qt::PlainText</enum>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_17">
+        <property name="geometry">
+         <rect>
+          <x>210</x>
+          <y>610</y>
+          <width>191</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Технічні ризики:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_13">
+        <property name="geometry">
+         <rect>
+          <x>250</x>
+          <y>640</y>
+          <width>101</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>0%</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_16">
+        <property name="geometry">
+         <rect>
+          <x>360</x>
+          <y>610</y>
+          <width>201</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Вартісні ризики:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_11">
+        <property name="geometry">
+         <rect>
+          <x>410</x>
+          <y>640</y>
+          <width>101</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>0%</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_20">
+        <property name="geometry">
+         <rect>
+          <x>530</x>
+          <y>610</y>
+          <width>201</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Планові ризики:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_9">
+        <property name="geometry">
+         <rect>
+          <x>580</x>
+          <y>640</y>
+          <width>101</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>0%</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_18">
+        <property name="geometry">
+         <rect>
+          <x>730</x>
+          <y>560</y>
+          <width>181</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Ризики реалізації
+ процесів та
+ процедур
+ управління:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_10">
+        <property name="geometry">
+         <rect>
+          <x>770</x>
+          <y>640</y>
+          <width>101</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>0%</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_19">
+        <property name="geometry">
+         <rect>
+          <x>940</x>
+          <y>610</y>
+          <width>201</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Загалом:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_12">
+        <property name="geometry">
+         <rect>
+          <x>990</x>
+          <y>640</y>
+          <width>101</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>0%</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>Аналіз ризиків розроблення ПЗ</string>
+     </attribute>
+     <widget class="QTabWidget" name="tabWidget_4">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1271</width>
+        <height>801</height>
+       </rect>
+      </property>
+      <property name="currentIndex">
+       <number>1</number>
+      </property>
+      <widget class="QWidget" name="tab_5">
+       <attribute name="title">
+        <string>Оцінки експертів</string>
+       </attribute>
+       <widget class="QTableWidget" name="tableWidget">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>10</y>
+          <width>1121</width>
+          <height>621</height>
+         </rect>
+        </property>
+        <property name="autoScroll">
+         <bool>true</bool>
+        </property>
+        <property name="textElideMode">
+         <enum>Qt::ElideNone</enum>
+        </property>
+        <property name="verticalScrollMode">
+         <enum>QAbstractItemView::ScrollPerPixel</enum>
+        </property>
+        <property name="horizontalScrollMode">
+         <enum>QAbstractItemView::ScrollPerPixel</enum>
+        </property>
+        <attribute name="horizontalHeaderDefaultSectionSize">
+         <number>91</number>
+        </attribute>
+        <attribute name="verticalHeaderCascadingSectionResizes">
+         <bool>false</bool>
+        </attribute>
+        <attribute name="verticalHeaderDefaultSectionSize">
+         <number>21</number>
+        </attribute>
+        <row>
+         <property name="text">
+          <string>1</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>2</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>3</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>4</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>5</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>6</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>7</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>8</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>9</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>10</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>11</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>12</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>13</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>14</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>15</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>16</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>17</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>18</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>19</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>20</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>21</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>22</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>23</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>24</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>25</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>26</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>27</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>28</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>29</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>30</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>31</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>32</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>33</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>34</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>35</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>36</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>37</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>38</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>39</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>40</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>41</string>
+         </property>
+        </row>
+        <column>
+         <property name="text">
+          <string>Ризикова подія</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>1</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>2</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>3</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>4</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>5</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>6</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>7</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>8</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>9</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>10</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Сер.  ймов.</string>
+         </property>
+        </column>
+        <item row="0" column="0">
+         <property name="text">
+          <string> Затримки у постачанні обладнання, необхідного для підтримки процесу розроблення ПЗ</string>
+         </property>
+        </item>
+        <item row="1" column="0">
+         <property name="text">
+          <string>Затримки у постачанні інструментальних засобів, необхідних для підтримки процесу розроблення ПЗ</string>
+         </property>
+        </item>
+        <item row="2" column="0">
+         <property name="text">
+          <string>Небажання команди виконавців використовувати інструментальні засоби для підтримки процесу розроблення ПЗ</string>
+         </property>
+        </item>
+        <item row="3" column="0">
+         <property name="text">
+          <string>Формування запитів на більш потужні інструментальні засоби розроблення ПЗ</string>
+         </property>
+        </item>
+        <item row="4" column="0">
+         <property name="text">
+          <string>Відмова команди виконавців від CASE-засобів розроблення ПЗ</string>
+         </property>
+        </item>
+        <item row="5" column="0">
+         <property name="text">
+          <string>Неефективність програмного коду, згенерованого CASE-засобами розроблення ПЗ</string>
+         </property>
+        </item>
+        <item row="6" column="0">
+         <property name="text">
+          <string>Неможливість інтеграції CASE-засобів з іншими інструментальними засобами для підтримки процесу розроблення ПЗ</string>
+         </property>
+        </item>
+        <item row="7" column="0">
+         <property name="text">
+          <string>Недостатня продуктивність баз(и) даних для підтримки процесу розроблення ПЗ</string>
+         </property>
+        </item>
+        <item row="8" column="0">
+         <property name="text">
+          <string>Програмні компоненти, які використовують повторно в ПЗ, мають дефекти та обмежені функціональні можливості</string>
+         </property>
+        </item>
+        <item row="9" column="0">
+         <property name="text">
+          <string>Швидкість виявлення дефектів у програмному коді є нижчою від раніше запланованих термінів</string>
+         </property>
+        </item>
+        <item row="10" column="0">
+         <property name="text">
+          <string>Поява дефектних системних компонент, які використовують для розроблення ПЗ</string>
+         </property>
+        </item>
+        <item row="11" column="0">
+         <property name="text">
+          <string>Недо(пере)оцінювання витрат на реалізацію програмного проекту (надмірно низька вартість)</string>
+         </property>
+        </item>
+        <item row="12" column="0">
+         <property name="text">
+          <string>Фінансові ускладнення у компанії-замовника ПЗ</string>
+         </property>
+        </item>
+        <item row="13" column="0">
+         <property name="text">
+          <string>Фінансові ускладнення у компанії-розробника ПЗ</string>
+         </property>
+        </item>
+        <item row="14" column="0">
+         <property name="text">
+          <string>Змен(збіль)шення бюджету програмного проекта з ініціативи компанії-замовника ПЗ під час його реалізації</string>
+         </property>
+        </item>
+        <item row="15" column="0">
+         <property name="text">
+          <string>Висока вартість виконання повторних робіт, необхідних для зміни вимог до ПЗ</string>
+         </property>
+        </item>
+        <item row="16" column="0">
+         <property name="text">
+          <string>Реорганізація структурних підрозділів у компанії-замовника ПЗ</string>
+         </property>
+        </item>
+        <item row="17" column="0">
+         <property name="text">
+          <string>Реорганізація команди виконавців у компанії-розробника ПЗ</string>
+         </property>
+        </item>
+        <item row="18" column="0">
+         <property name="text">
+          <string>Зміни графіка виконання робіт з боку замовника чи розробника ПЗ</string>
+         </property>
+        </item>
+        <item row="19" column="0">
+         <property name="text">
+          <string>Порушення графіка виконання робіт з боку компанії-розробника ПЗ</string>
+         </property>
+        </item>
+        <item row="20" column="0">
+         <property name="text">
+          <string>Потреба зміни користувацьких вимог до ПЗ з боку компанії-замовника ПЗ</string>
+         </property>
+        </item>
+        <item row="21" column="0">
+         <property name="text">
+          <string>Потреба зміни функціональних вимог до ПЗ з боку компанії-розробника ПЗ</string>
+         </property>
+        </item>
+        <item row="22" column="0">
+         <property name="text">
+          <string>Потреба виконання великої кількості повторних робіт, необхідних для зміни вимог до ПЗ</string>
+         </property>
+        </item>
+        <item row="23" column="0">
+         <property name="text">
+          <string>Недо(пере)оцінювання тривалості етапів реалізації програмного проекту з боку компанії-замовника ПЗ</string>
+         </property>
+        </item>
+        <item row="24" column="0">
+         <property name="text">
+          <string>Остаточний розмір ПЗ значно перевищує (менший від) заплановані(их) його характеристики
+</string>
+         </property>
+        </item>
+        <item row="25" column="0">
+         <property name="text">
+          <string>Поява на ринку аналогічного ПЗ до виходу замовленого</string>
+         </property>
+        </item>
+        <item row="26" column="0">
+         <property name="text">
+          <string>Поява на ринку більш конкурентоздатного ПЗ</string>
+         </property>
+        </item>
+        <item row="27" column="0">
+         <property name="text">
+          <string>Низький моральний стан персоналу команди виконавців ПЗ</string>
+         </property>
+        </item>
+        <item row="28" column="0">
+         <property name="text">
+          <string>Низька взаємодія між членами команди виконавців ПЗ</string>
+         </property>
+        </item>
+        <item row="29" column="0">
+         <property name="text">
+          <string>Пасивність керівника (менеджера) програмного проекту</string>
+         </property>
+        </item>
+        <item row="30" column="0">
+         <property name="text">
+          <string>Недостатня компетентність керівника (менеджера) програмного проекту</string>
+         </property>
+        </item>
+        <item row="31" column="0">
+         <property name="text">
+          <string>Незадоволеність замовника результатами етапів реалізації програмного проекту</string>
+         </property>
+        </item>
+        <item row="32" column="0">
+         <property name="text">
+          <string>Недостатня кількість фахівців у команді виконавців ПЗ з необхідним професійним рівнем</string>
+         </property>
+        </item>
+        <item row="33" column="0">
+         <property name="text">
+          <string>Хвороба провідного виконавця в найкритичніший момент розроблення ПЗ</string>
+         </property>
+        </item>
+        <item row="34" column="0">
+         <property name="text">
+          <string>Одночасна хвороба декількох виконавців підчас розроблення ПЗ</string>
+         </property>
+        </item>
+        <item row="35" column="0">
+         <property name="text">
+          <string>Неможливість організації необхідного навчання персоналу команди виконавців ПЗ</string>
+         </property>
+        </item>
+        <item row="36" column="0">
+         <property name="text">
+          <string>Зміна пріоритетів у процесі управління програмним проектом</string>
+         </property>
+        </item>
+        <item row="37" column="0">
+         <property name="text">
+          <string>Недо(пере)оцінювання необхідної кількості розробників (підрядників і субпідрядників) на етапах життєвого циклу розроблення ПЗ;
+</string>
+         </property>
+        </item>
+        <item row="38" column="0">
+         <property name="text">
+          <string>Недостатнє (надмірне) документування результатів на етапах реалізації програмного проекту</string>
+         </property>
+        </item>
+        <item row="39" column="0">
+         <property name="text">
+          <string>Нереалістичне прогнозування результатів на етапах реалізації програмного проекту</string>
+         </property>
+        </item>
+        <item row="40" column="0">
+         <property name="text">
+          <string>Недостатній професійний рівень представників від компанії-замовника ПЗ</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QPushButton" name="pushButton">
+        <property name="geometry">
+         <rect>
+          <x>470</x>
+          <y>650</y>
+          <width>281</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Випадкові числа</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_6">
+       <attribute name="title">
+        <string>Коефіцієнти вагомості й розподіл вартості</string>
+       </attribute>
+       <widget class="QTableWidget" name="tableWidget_2">
+        <property name="geometry">
+         <rect>
+          <x>670</x>
+          <y>400</y>
+          <width>521</width>
+          <height>151</height>
+         </rect>
+        </property>
+        <property name="columnCount">
+         <number>12</number>
+        </property>
+        <attribute name="horizontalHeaderCascadingSectionResizes">
+         <bool>false</bool>
+        </attribute>
+        <attribute name="horizontalHeaderMinimumSectionSize">
+         <number>32</number>
+        </attribute>
+        <attribute name="horizontalHeaderDefaultSectionSize">
+         <number>64</number>
+        </attribute>
+        <attribute name="horizontalHeaderStretchLastSection">
+         <bool>true</bool>
+        </attribute>
+        <attribute name="verticalHeaderCascadingSectionResizes">
+         <bool>true</bool>
+        </attribute>
+        <attribute name="verticalHeaderShowSortIndicator" stdset="0">
+         <bool>false</bool>
+        </attribute>
+        <attribute name="verticalHeaderStretchLastSection">
+         <bool>true</bool>
+        </attribute>
+        <row>
+         <property name="text">
+          <string>1</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>2</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>3</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>4</string>
+         </property>
+        </row>
+        <column>
+         <property name="text">
+          <string>Множина</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>1</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>2</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>3</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>4</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>5</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>6</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>7</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>8</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>9</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>10</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Сума</string>
+         </property>
+        </column>
+        <item row="0" column="0">
+         <property name="text">
+          <string>Технічних </string>
+         </property>
+        </item>
+        <item row="1" column="0">
+         <property name="text">
+          <string>Вартісних </string>
+         </property>
+        </item>
+        <item row="2" column="0">
+         <property name="text">
+          <string>Планових </string>
+         </property>
+        </item>
+        <item row="3" column="0">
+         <property name="text">
+          <string>Подій </string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QLabel" name="label_7">
+        <property name="geometry">
+         <rect>
+          <x>740</x>
+          <y>330</y>
+          <width>411</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Коефіцієнти вагомості кожного з експертів
+      для можливих збитків від ризику</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="geometry">
+         <rect>
+          <x>810</x>
+          <y>590</y>
+          <width>211</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Випадкові числа</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_8">
+        <property name="geometry">
+         <rect>
+          <x>740</x>
+          <y>20</y>
+          <width>391</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Розподіл початкової вартості реалізації
+      проєкту за множинами ризиків</string>
+        </property>
+       </widget>
+       <widget class="QTableWidget" name="tableWidget_3">
+        <property name="geometry">
+         <rect>
+          <x>650</x>
+          <y>110</y>
+          <width>521</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <attribute name="horizontalHeaderStretchLastSection">
+         <bool>true</bool>
+        </attribute>
+        <attribute name="verticalHeaderStretchLastSection">
+         <bool>true</bool>
+        </attribute>
+        <row>
+         <property name="text">
+          <string>1</string>
+         </property>
+        </row>
+        <column>
+         <property name="text">
+          <string>Всього</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Технічні</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Вартісні</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Планові</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Реалізацій</string>
+         </property>
+        </column>
+        <item row="0" column="0">
+         <property name="text">
+          <string/>
+         </property>
+         <property name="flags">
+          <set>ItemIsSelectable</set>
+         </property>
+        </item>
+       </widget>
+       <widget class="QPushButton" name="pushButton_3">
+        <property name="geometry">
+         <rect>
+          <x>800</x>
+          <y>190</y>
+          <width>211</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Випадкові числа</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_9">
+        <property name="geometry">
+         <rect>
+          <x>870</x>
+          <y>70</y>
+          <width>101</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>(у тис.  грн)</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_21">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>30</y>
+          <width>421</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Коефіцієнт збитку по кожному ризику</string>
+        </property>
+       </widget>
+       <widget class="QTableWidget" name="tableWidget_7">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>60</y>
+          <width>241</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <property name="autoScroll">
+         <bool>true</bool>
+        </property>
+        <property name="textElideMode">
+         <enum>Qt::ElideNone</enum>
+        </property>
+        <property name="verticalScrollMode">
+         <enum>QAbstractItemView::ScrollPerPixel</enum>
+        </property>
+        <property name="horizontalScrollMode">
+         <enum>QAbstractItemView::ScrollPerPixel</enum>
+        </property>
+        <attribute name="horizontalHeaderDefaultSectionSize">
+         <number>91</number>
+        </attribute>
+        <attribute name="verticalHeaderCascadingSectionResizes">
+         <bool>false</bool>
+        </attribute>
+        <attribute name="verticalHeaderDefaultSectionSize">
+         <number>21</number>
+        </attribute>
+        <row>
+         <property name="text">
+          <string>1</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>2</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>3</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>4</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>5</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>6</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>7</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>8</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>9</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>10</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>11</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>12</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>13</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>14</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>15</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>16</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>17</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>18</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>19</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>20</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>21</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>22</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>23</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>24</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>25</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>26</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>27</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>28</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>29</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>30</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>31</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>32</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>33</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>34</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>35</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>36</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>37</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>38</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>39</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>40</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>41</string>
+         </property>
+        </row>
+        <column>
+         <property name="text">
+          <string>Ризикова подія</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Коефіцієнт</string>
+         </property>
+        </column>
+        <item row="0" column="0">
+         <property name="text">
+          <string> Затримки у постачанні обладнання, необхідного для підтримки процесу розроблення ПЗ</string>
+         </property>
+        </item>
+        <item row="1" column="0">
+         <property name="text">
+          <string>Затримки у постачанні інструментальних засобів, необхідних для підтримки процесу розроблення ПЗ</string>
+         </property>
+        </item>
+        <item row="2" column="0">
+         <property name="text">
+          <string>Небажання команди виконавців використовувати інструментальні засоби для підтримки процесу розроблення ПЗ</string>
+         </property>
+        </item>
+        <item row="3" column="0">
+         <property name="text">
+          <string>Формування запитів на більш потужні інструментальні засоби розроблення ПЗ</string>
+         </property>
+        </item>
+        <item row="4" column="0">
+         <property name="text">
+          <string>Відмова команди виконавців від CASE-засобів розроблення ПЗ</string>
+         </property>
+        </item>
+        <item row="5" column="0">
+         <property name="text">
+          <string>Неефективність програмного коду, згенерованого CASE-засобами розроблення ПЗ</string>
+         </property>
+        </item>
+        <item row="6" column="0">
+         <property name="text">
+          <string>Неможливість інтеграції CASE-засобів з іншими інструментальними засобами для підтримки процесу розроблення ПЗ</string>
+         </property>
+        </item>
+        <item row="7" column="0">
+         <property name="text">
+          <string>Недостатня продуктивність баз(и) даних для підтримки процесу розроблення ПЗ</string>
+         </property>
+        </item>
+        <item row="8" column="0">
+         <property name="text">
+          <string>Програмні компоненти, які використовують повторно в ПЗ, мають дефекти та обмежені функціональні можливості</string>
+         </property>
+        </item>
+        <item row="9" column="0">
+         <property name="text">
+          <string>Швидкість виявлення дефектів у програмному коді є нижчою від раніше запланованих термінів</string>
+         </property>
+        </item>
+        <item row="10" column="0">
+         <property name="text">
+          <string>Поява дефектних системних компонент, які використовують для розроблення ПЗ</string>
+         </property>
+        </item>
+        <item row="11" column="0">
+         <property name="text">
+          <string>Недо(пере)оцінювання витрат на реалізацію програмного проекту (надмірно низька вартість)</string>
+         </property>
+        </item>
+        <item row="12" column="0">
+         <property name="text">
+          <string>Фінансові ускладнення у компанії-замовника ПЗ</string>
+         </property>
+        </item>
+        <item row="13" column="0">
+         <property name="text">
+          <string>Фінансові ускладнення у компанії-розробника ПЗ</string>
+         </property>
+        </item>
+        <item row="14" column="0">
+         <property name="text">
+          <string>Змен(збіль)шення бюджету програмного проекта з ініціативи компанії-замовника ПЗ під час його реалізації</string>
+         </property>
+        </item>
+        <item row="15" column="0">
+         <property name="text">
+          <string>Висока вартість виконання повторних робіт, необхідних для зміни вимог до ПЗ</string>
+         </property>
+        </item>
+        <item row="16" column="0">
+         <property name="text">
+          <string>Реорганізація структурних підрозділів у компанії-замовника ПЗ</string>
+         </property>
+        </item>
+        <item row="17" column="0">
+         <property name="text">
+          <string>Реорганізація команди виконавців у компанії-розробника ПЗ</string>
+         </property>
+        </item>
+        <item row="18" column="0">
+         <property name="text">
+          <string>Зміни графіка виконання робіт з боку замовника чи розробника ПЗ</string>
+         </property>
+        </item>
+        <item row="19" column="0">
+         <property name="text">
+          <string>Порушення графіка виконання робіт з боку компанії-розробника ПЗ</string>
+         </property>
+        </item>
+        <item row="20" column="0">
+         <property name="text">
+          <string>Потреба зміни користувацьких вимог до ПЗ з боку компанії-замовника ПЗ</string>
+         </property>
+        </item>
+        <item row="21" column="0">
+         <property name="text">
+          <string>Потреба зміни функціональних вимог до ПЗ з боку компанії-розробника ПЗ</string>
+         </property>
+        </item>
+        <item row="22" column="0">
+         <property name="text">
+          <string>Потреба виконання великої кількості повторних робіт, необхідних для зміни вимог до ПЗ</string>
+         </property>
+        </item>
+        <item row="23" column="0">
+         <property name="text">
+          <string>Недо(пере)оцінювання тривалості етапів реалізації програмного проекту з боку компанії-замовника ПЗ</string>
+         </property>
+        </item>
+        <item row="24" column="0">
+         <property name="text">
+          <string>Остаточний розмір ПЗ значно перевищує (менший від) заплановані(их) його характеристики
+</string>
+         </property>
+        </item>
+        <item row="25" column="0">
+         <property name="text">
+          <string>Поява на ринку аналогічного ПЗ до виходу замовленого</string>
+         </property>
+        </item>
+        <item row="26" column="0">
+         <property name="text">
+          <string>Поява на ринку більш конкурентоздатного ПЗ</string>
+         </property>
+        </item>
+        <item row="27" column="0">
+         <property name="text">
+          <string>Низький моральний стан персоналу команди виконавців ПЗ</string>
+         </property>
+        </item>
+        <item row="28" column="0">
+         <property name="text">
+          <string>Низька взаємодія між членами команди виконавців ПЗ</string>
+         </property>
+        </item>
+        <item row="29" column="0">
+         <property name="text">
+          <string>Пасивність керівника (менеджера) програмного проекту</string>
+         </property>
+        </item>
+        <item row="30" column="0">
+         <property name="text">
+          <string>Недостатня компетентність керівника (менеджера) програмного проекту</string>
+         </property>
+        </item>
+        <item row="31" column="0">
+         <property name="text">
+          <string>Незадоволеність замовника результатами етапів реалізації програмного проекту</string>
+         </property>
+        </item>
+        <item row="32" column="0">
+         <property name="text">
+          <string>Недостатня кількість фахівців у команді виконавців ПЗ з необхідним професійним рівнем</string>
+         </property>
+        </item>
+        <item row="33" column="0">
+         <property name="text">
+          <string>Хвороба провідного виконавця в найкритичніший момент розроблення ПЗ</string>
+         </property>
+        </item>
+        <item row="34" column="0">
+         <property name="text">
+          <string>Одночасна хвороба декількох виконавців підчас розроблення ПЗ</string>
+         </property>
+        </item>
+        <item row="35" column="0">
+         <property name="text">
+          <string>Неможливість організації необхідного навчання персоналу команди виконавців ПЗ</string>
+         </property>
+        </item>
+        <item row="36" column="0">
+         <property name="text">
+          <string>Зміна пріоритетів у процесі управління програмним проектом</string>
+         </property>
+        </item>
+        <item row="37" column="0">
+         <property name="text">
+          <string>Недо(пере)оцінювання необхідної кількості розробників (підрядників і субпідрядників) на етапах життєвого циклу розроблення ПЗ;
+</string>
+         </property>
+        </item>
+        <item row="38" column="0">
+         <property name="text">
+          <string>Недостатнє (надмірне) документування результатів на етапах реалізації програмного проекту</string>
+         </property>
+        </item>
+        <item row="39" column="0">
+         <property name="text">
+          <string>Нереалістичне прогнозування результатів на етапах реалізації програмного проекту</string>
+         </property>
+        </item>
+        <item row="40" column="0">
+         <property name="text">
+          <string>Недостатній професійний рівень представників від компанії-замовника ПЗ</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QPushButton" name="pushButton_5">
+        <property name="geometry">
+         <rect>
+          <x>130</x>
+          <y>540</y>
+          <width>211</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Випадкові числа</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_9">
+       <attribute name="title">
+        <string>Результати</string>
+       </attribute>
+       <widget class="QTableWidget" name="tableWidget_4">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>40</y>
+          <width>941</width>
+          <height>241</height>
+         </rect>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="sizeAdjustPolicy">
+         <enum>QAbstractScrollArea::AdjustToContents</enum>
+        </property>
+        <property name="autoScroll">
+         <bool>true</bool>
+        </property>
+        <property name="textElideMode">
+         <enum>Qt::ElideNone</enum>
+        </property>
+        <property name="verticalScrollMode">
+         <enum>QAbstractItemView::ScrollPerPixel</enum>
+        </property>
+        <property name="horizontalScrollMode">
+         <enum>QAbstractItemView::ScrollPerPixel</enum>
+        </property>
+        <property name="showGrid">
+         <bool>true</bool>
+        </property>
+        <property name="columnCount">
+         <number>6</number>
+        </property>
+        <attribute name="horizontalHeaderDefaultSectionSize">
+         <number>115</number>
+        </attribute>
+        <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+         <bool>false</bool>
+        </attribute>
+        <attribute name="horizontalHeaderStretchLastSection">
+         <bool>false</bool>
+        </attribute>
+        <attribute name="verticalHeaderCascadingSectionResizes">
+         <bool>false</bool>
+        </attribute>
+        <attribute name="verticalHeaderDefaultSectionSize">
+         <number>21</number>
+        </attribute>
+        <row>
+         <property name="text">
+          <string>1</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>2</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>3</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>4</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>5</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>6</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>7</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>8</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>9</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>10</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>11</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>12</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>13</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>14</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>15</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>16</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>17</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>18</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>19</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>20</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>21</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>22</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>23</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>24</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>25</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>26</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>27</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>28</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>29</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>30</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>31</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>32</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>33</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>34</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>35</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>36</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>37</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>38</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>39</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>40</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>41</string>
+         </property>
+        </row>
+        <column>
+         <property name="text">
+          <string>Ризикова подія</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Cер.  ймов. (з ваг.  коеф.)</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Cер.  ймов.  (текст.  форм.)</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Дод.  вар. (тис. грн)</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Кін.  вар. (тис. грн)</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Рівень пріоритету</string>
+         </property>
+        </column>
+        <item row="0" column="0">
+         <property name="text">
+          <string> Затримки у постачанні обладнання, необхідного для підтримки процесу розроблення ПЗ</string>
+         </property>
+         <property name="textAlignment">
+          <set>AlignLeading|AlignVCenter</set>
+         </property>
+        </item>
+        <item row="1" column="0">
+         <property name="text">
+          <string>Затримки у постачанні інструментальних засобів, необхідних для підтримки процесу розроблення ПЗ</string>
+         </property>
+        </item>
+        <item row="2" column="0">
+         <property name="text">
+          <string>Небажання команди виконавців використовувати інструментальні засоби для підтримки процесу розроблення ПЗ</string>
+         </property>
+        </item>
+        <item row="3" column="0">
+         <property name="text">
+          <string>Формування запитів на більш потужні інструментальні засоби розроблення ПЗ</string>
+         </property>
+        </item>
+        <item row="4" column="0">
+         <property name="text">
+          <string>Відмова команди виконавців від CASE-засобів розроблення ПЗ</string>
+         </property>
+        </item>
+        <item row="5" column="0">
+         <property name="text">
+          <string>Неефективність програмного коду, згенерованого CASE-засобами розроблення ПЗ</string>
+         </property>
+        </item>
+        <item row="6" column="0">
+         <property name="text">
+          <string>Неможливість інтеграції CASE-засобів з іншими інструментальними засобами для підтримки процесу розроблення ПЗ</string>
+         </property>
+        </item>
+        <item row="7" column="0">
+         <property name="text">
+          <string>Недостатня продуктивність баз(и) даних для підтримки процесу розроблення ПЗ</string>
+         </property>
+        </item>
+        <item row="8" column="0">
+         <property name="text">
+          <string>Програмні компоненти, які використовують повторно в ПЗ, мають дефекти та обмежені функціональні можливості</string>
+         </property>
+        </item>
+        <item row="9" column="0">
+         <property name="text">
+          <string>Швидкість виявлення дефектів у програмному коді є нижчою від раніше запланованих термінів</string>
+         </property>
+        </item>
+        <item row="10" column="0">
+         <property name="text">
+          <string>Поява дефектних системних компонент, які використовують для розроблення ПЗ</string>
+         </property>
+        </item>
+        <item row="11" column="0">
+         <property name="text">
+          <string>Недо(пере)оцінювання витрат на реалізацію програмного проекту (надмірно низька вартість)</string>
+         </property>
+        </item>
+        <item row="12" column="0">
+         <property name="text">
+          <string>Фінансові ускладнення у компанії-замовника ПЗ</string>
+         </property>
+        </item>
+        <item row="13" column="0">
+         <property name="text">
+          <string>Фінансові ускладнення у компанії-розробника ПЗ</string>
+         </property>
+        </item>
+        <item row="14" column="0">
+         <property name="text">
+          <string>Змен(збіль)шення бюджету програмного проекта з ініціативи компанії-замовника ПЗ під час його реалізації</string>
+         </property>
+        </item>
+        <item row="15" column="0">
+         <property name="text">
+          <string>Висока вартість виконання повторних робіт, необхідних для зміни вимог до ПЗ</string>
+         </property>
+        </item>
+        <item row="16" column="0">
+         <property name="text">
+          <string>Реорганізація структурних підрозділів у компанії-замовника ПЗ</string>
+         </property>
+        </item>
+        <item row="17" column="0">
+         <property name="text">
+          <string>Реорганізація команди виконавців у компанії-розробника ПЗ</string>
+         </property>
+        </item>
+        <item row="18" column="0">
+         <property name="text">
+          <string>Зміни графіка виконання робіт з боку замовника чи розробника ПЗ</string>
+         </property>
+        </item>
+        <item row="19" column="0">
+         <property name="text">
+          <string>Порушення графіка виконання робіт з боку компанії-розробника ПЗ</string>
+         </property>
+        </item>
+        <item row="20" column="0">
+         <property name="text">
+          <string>Потреба зміни користувацьких вимог до ПЗ з боку компанії-замовника ПЗ</string>
+         </property>
+        </item>
+        <item row="21" column="0">
+         <property name="text">
+          <string>Потреба зміни функціональних вимог до ПЗ з боку компанії-розробника ПЗ</string>
+         </property>
+        </item>
+        <item row="22" column="0">
+         <property name="text">
+          <string>Потреба виконання великої кількості повторних робіт, необхідних для зміни вимог до ПЗ</string>
+         </property>
+        </item>
+        <item row="23" column="0">
+         <property name="text">
+          <string>Недо(пере)оцінювання тривалості етапів реалізації програмного проекту з боку компанії-замовника ПЗ</string>
+         </property>
+        </item>
+        <item row="24" column="0">
+         <property name="text">
+          <string>Остаточний розмір ПЗ значно перевищує (менший від) заплановані(их) його характеристики
+</string>
+         </property>
+        </item>
+        <item row="25" column="0">
+         <property name="text">
+          <string>Поява на ринку аналогічного ПЗ до виходу замовленого</string>
+         </property>
+        </item>
+        <item row="26" column="0">
+         <property name="text">
+          <string>Поява на ринку більш конкурентоздатного ПЗ</string>
+         </property>
+        </item>
+        <item row="27" column="0">
+         <property name="text">
+          <string>Низький моральний стан персоналу команди виконавців ПЗ</string>
+         </property>
+        </item>
+        <item row="28" column="0">
+         <property name="text">
+          <string>Низька взаємодія між членами команди виконавців ПЗ</string>
+         </property>
+        </item>
+        <item row="29" column="0">
+         <property name="text">
+          <string>Пасивність керівника (менеджера) програмного проекту</string>
+         </property>
+        </item>
+        <item row="30" column="0">
+         <property name="text">
+          <string>Недостатня компетентність керівника (менеджера) програмного проекту</string>
+         </property>
+        </item>
+        <item row="31" column="0">
+         <property name="text">
+          <string>Незадоволеність замовника результатами етапів реалізації програмного проекту</string>
+         </property>
+        </item>
+        <item row="32" column="0">
+         <property name="text">
+          <string>Недостатня кількість фахівців у команді виконавців ПЗ з необхідним професійним рівнем</string>
+         </property>
+        </item>
+        <item row="33" column="0">
+         <property name="text">
+          <string>Хвороба провідного виконавця в найкритичніший момент розроблення ПЗ</string>
+         </property>
+        </item>
+        <item row="34" column="0">
+         <property name="text">
+          <string>Одночасна хвороба декількох виконавців підчас розроблення ПЗ</string>
+         </property>
+        </item>
+        <item row="35" column="0">
+         <property name="text">
+          <string>Неможливість організації необхідного навчання персоналу команди виконавців ПЗ</string>
+         </property>
+        </item>
+        <item row="36" column="0">
+         <property name="text">
+          <string>Зміна пріоритетів у процесі управління програмним проектом</string>
+         </property>
+        </item>
+        <item row="37" column="0">
+         <property name="text">
+          <string>Недо(пере)оцінювання необхідної кількості розробників (підрядників і субпідрядників) на етапах життєвого циклу розроблення ПЗ;
+</string>
+         </property>
+        </item>
+        <item row="38" column="0">
+         <property name="text">
+          <string>Недостатнє (надмірне) документування результатів на етапах реалізації програмного проекту</string>
+         </property>
+        </item>
+        <item row="39" column="0">
+         <property name="text">
+          <string>Нереалістичне прогнозування результатів на етапах реалізації програмного проекту</string>
+         </property>
+        </item>
+        <item row="40" column="0">
+         <property name="text">
+          <string>Недостатній професійний рівень представників від компанії-замовника ПЗ</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QTableWidget" name="tableWidget_5">
+        <property name="geometry">
+         <rect>
+          <x>210</x>
+          <y>330</y>
+          <width>881</width>
+          <height>151</height>
+         </rect>
+        </property>
+        <attribute name="horizontalHeaderCascadingSectionResizes">
+         <bool>false</bool>
+        </attribute>
+        <attribute name="horizontalHeaderMinimumSectionSize">
+         <number>34</number>
+        </attribute>
+        <attribute name="horizontalHeaderDefaultSectionSize">
+         <number>103</number>
+        </attribute>
+        <attribute name="horizontalHeaderStretchLastSection">
+         <bool>true</bool>
+        </attribute>
+        <attribute name="verticalHeaderCascadingSectionResizes">
+         <bool>true</bool>
+        </attribute>
+        <attribute name="verticalHeaderShowSortIndicator" stdset="0">
+         <bool>false</bool>
+        </attribute>
+        <attribute name="verticalHeaderStretchLastSection">
+         <bool>true</bool>
+        </attribute>
+        <row>
+         <property name="text">
+          <string>1</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>2</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>3</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>4</string>
+         </property>
+        </row>
+        <column>
+         <property name="text">
+          <string>Множина</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Cер.  ймов. </string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Cер.  ймов.  (з ваг.коеф.)</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Cер.  ймов.  (текст.форм.)</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Дод.  вар.  (тис.  грн)</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Кін .вар. (тис.  грн)</string>
+         </property>
+        </column>
+        <item row="0" column="0">
+         <property name="text">
+          <string>Технічних</string>
+         </property>
+        </item>
+        <item row="1" column="0">
+         <property name="text">
+          <string>Вартісних</string>
+         </property>
+        </item>
+        <item row="2" column="0">
+         <property name="text">
+          <string>Планових</string>
+         </property>
+        </item>
+        <item row="3" column="0">
+         <property name="text">
+          <string>Реалізацій</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QLabel" name="label_10">
+        <property name="geometry">
+         <rect>
+          <x>150</x>
+          <y>10</y>
+          <width>1031</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Ймовірності настання ризикових подій,частки можливих збитків від прояву ризику (за кожним ризиком) </string>
+        </property>
+       </widget>
+       <widget class="QTableWidget" name="tableWidget_6">
+        <property name="geometry">
+         <rect>
+          <x>370</x>
+          <y>530</y>
+          <width>521</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <attribute name="horizontalHeaderStretchLastSection">
+         <bool>true</bool>
+        </attribute>
+        <attribute name="verticalHeaderStretchLastSection">
+         <bool>true</bool>
+        </attribute>
+        <row>
+         <property name="text">
+          <string>1</string>
+         </property>
+        </row>
+        <column>
+         <property name="text">
+          <string>Всього</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Технічні</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Вартісні</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Планові</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Реалізацій</string>
+         </property>
+        </column>
+        <item row="0" column="0">
+         <property name="text">
+          <string/>
+         </property>
+         <property name="flags">
+          <set>ItemIsSelectable</set>
+         </property>
+        </item>
+       </widget>
+       <widget class="QPushButton" name="pushButton_4">
+        <property name="geometry">
+         <rect>
+          <x>440</x>
+          <y>630</y>
+          <width>361</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Порахувати</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_11">
+        <property name="geometry">
+         <rect>
+          <x>480</x>
+          <y>490</y>
+          <width>381</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Кінцева вартість реалізації проєкту</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_12">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>290</y>
+          <width>1071</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Ймовірності настання ризикових подій,частки можливих збитків від прояву ризику (за множинами ризиків) </string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_10">
+     <attribute name="title">
+      <string>Планування ризиків розроблення ПЗ</string>
+     </attribute>
+     <widget class="QTabWidget" name="tabWidget_5">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1261</width>
+        <height>771</height>
+       </rect>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_11">
+       <attribute name="title">
+        <string>Встановлення вагів заходів</string>
+       </attribute>
+       <widget class="QTableWidget" name="tableWidget_8">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>20</y>
+          <width>911</width>
+          <height>511</height>
+         </rect>
+        </property>
+        <attribute name="horizontalHeaderMinimumSectionSize">
+         <number>39</number>
+        </attribute>
+        <attribute name="horizontalHeaderDefaultSectionSize">
+         <number>165</number>
+        </attribute>
+        <attribute name="horizontalHeaderStretchLastSection">
+         <bool>true</bool>
+        </attribute>
+        <attribute name="verticalHeaderDefaultSectionSize">
+         <number>29</number>
+        </attribute>
+        <attribute name="verticalHeaderStretchLastSection">
+         <bool>true</bool>
+        </attribute>
+        <row>
+         <property name="text">
+          <string>1</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>2</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>3</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>4</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>5</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>6</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>7</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>8</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>9</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>10</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>11</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>12</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>13</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>14</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>15</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>16</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>17</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>18</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>19</string>
+         </property>
+        </row>
+        <column>
+         <property name="text">
+          <string>Захід</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Пом'якшення</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Прийняття</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Ухилення</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Передача</string>
+         </property>
+        </column>
+        <item row="0" column="0">
+         <property name="text">
+          <string>Попереднє навчання членів проектного колективу</string>
+         </property>
+        </item>
+        <item row="1" column="0">
+         <property name="text">
+          <string>Узгодження детального переліку вимог до ПЗ із замовником</string>
+         </property>
+        </item>
+        <item row="2" column="0">
+         <property name="text">
+          <string>Внесення узгодженого переліку вимог до ПЗ замовника в договір</string>
+         </property>
+        </item>
+        <item row="3" column="0">
+         <property name="text">
+          <string>Точне слідування вимогам замовника з узгодженого переліку вимог до ПЗ</string>
+         </property>
+        </item>
+        <item row="4" column="0">
+         <property name="text">
+          <string>Попередні дослідження ринку</string>
+         </property>
+        </item>
+        <item row="5" column="0">
+         <property name="text">
+          <string>Експертна оцінка програмного проекту досвідченим стороннім консультантом</string>
+         </property>
+        </item>
+        <item row="6" column="0">
+         <property name="text">
+          <string>Консультації досвідченого стороннього консультанта</string>
+         </property>
+        </item>
+        <item row="7" column="0">
+         <property name="text">
+          <string>Тренінг з вивчення необхідних інструментів розроблення ПЗ</string>
+         </property>
+        </item>
+        <item row="8" column="0">
+         <property name="text">
+          <string>Укладання договору страхування</string>
+         </property>
+        </item>
+        <item row="9" column="0">
+         <property name="text">
+          <string>Використання &quot;шаблонних&quot; рішень з вдалих попередніх проектів при управлінні програмним проектом</string>
+         </property>
+        </item>
+        <item row="10" column="0">
+         <property name="text">
+          <string>Підготовка документів, які показують важливість даного проекту для досягнення фінансових цілей компанії-розробника</string>
+         </property>
+        </item>
+        <item row="11" column="0">
+         <property name="text">
+          <string>Реорганізація роботи проектного колективу так, щоб обов'язки та робота членів колективу перекривали один одного</string>
+         </property>
+        </item>
+        <item row="12" column="0">
+         <property name="text">
+          <string>Придбання (замовлення) частини компонент розроблюваного ПЗ</string>
+         </property>
+        </item>
+        <item row="13" column="0">
+         <property name="text">
+          <string>Заміна потенційно дефектних компонент розроблюваного ПЗ придбаними компонентами, які гарантують якість виконання роботи</string>
+         </property>
+        </item>
+        <item row="14" column="0">
+         <property name="text">
+          <string>Придбання більш продуктивної бази даних</string>
+         </property>
+        </item>
+        <item row="15" column="0">
+         <property name="text">
+          <string>Використання генератора програмного коду</string>
+         </property>
+        </item>
+        <item row="16" column="0">
+         <property name="text">
+          <string>Реорганізація роботи проектного колективу залежно від рівня труднощів виконання завдань та професійних рівнів розробників</string>
+         </property>
+        </item>
+        <item row="17" column="0">
+         <property name="text">
+          <string>Повторне використання придатних компонент ПЗ, які були розроблені для інших програмних проектів</string>
+         </property>
+        </item>
+        <item row="18" column="0">
+         <property name="text">
+          <string>Аналіз доцільності розроблення даного ПЗ</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QPushButton" name="pushButton_6">
+        <property name="geometry">
+         <rect>
+          <x>480</x>
+          <y>570</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Випадкові числа</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_12">
+       <attribute name="title">
+        <string>Встановлення заходів із зменшення або усунення ризиків</string>
+       </attribute>
+       <widget class="QTableWidget" name="tableWidget_9">
+        <property name="geometry">
+         <rect>
+          <x>210</x>
+          <y>20</y>
+          <width>871</width>
+          <height>591</height>
+         </rect>
+        </property>
+        <attribute name="horizontalHeaderDefaultSectionSize">
+         <number>212</number>
+        </attribute>
+        <column>
+         <property name="text">
+          <string>Номер ризику</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Ризик</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Захід вирішення</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Напрям боротьби</string>
+         </property>
+        </column>
+       </widget>
+       <widget class="QPushButton" name="pushButton_7">
+        <property name="geometry">
+         <rect>
+          <x>480</x>
+          <y>630</y>
+          <width>311</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Вирішити</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="buttonGroup_8">
+   <property name="exclusive">
+    <bool>false</bool>
+   </property>
+  </buttongroup>
+  <buttongroup name="buttonGroup_4">
+   <property name="exclusive">
+    <bool>false</bool>
+   </property>
+  </buttongroup>
+  <buttongroup name="buttonGroup_2">
+   <property name="exclusive">
+    <bool>false</bool>
+   </property>
+  </buttongroup>
+  <buttongroup name="buttonGroup_6">
+   <property name="exclusive">
+    <bool>false</bool>
+   </property>
+  </buttongroup>
+  <buttongroup name="buttonGroup_3">
+   <property name="exclusive">
+    <bool>false</bool>
+   </property>
+  </buttongroup>
+  <buttongroup name="buttonGroup_5">
+   <property name="exclusive">
+    <bool>false</bool>
+   </property>
+  </buttongroup>
+  <buttongroup name="buttonGroup_7">
+   <property name="exclusive">
+    <bool>false</bool>
+   </property>
+  </buttongroup>
+  <buttongroup name="buttonGroup">
+   <property name="exclusive">
+    <bool>false</bool>
+   </property>
+  </buttongroup>
+ </buttongroups>
+</ui>
